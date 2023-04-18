@@ -3,3 +3,22 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+header{
+  width: 100%;
+  padding: 30px 20px;
+  background-color: #FF00FF;
+  display: flex;
+  justify-content: flex-end;
+}
+
+header > div{
+  flex-basis: 140px;
+  height: 70px;
+  background-color: #FFCCFF;
+  margin: 0 10px;
+}
+
+header > div:nth-child(1){
+  margin-right: auto;
+}
