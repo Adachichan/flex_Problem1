@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  width: 100%;
+  padding: 30px 20px;
+  background-color: #FF00FF;
+  display: flex;
+  justify-content: flex-end;
+}
+
+header > div{
+  flex-basis: 140px;
+  height: 70px;
+  background-color: #FFCCFF;
+  margin: 0 10px;
+}
+
+header > div:nth-child(1){
+  margin-right: auto;
+}
+
+footer {
+  width: 100%;
+  padding: 20px;
+  background-color: #33CCFF;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+footer > div{
+  max-width: 600px;
+  flex-basis: 45vw;
+  height: 40px;
+  background-color: #DDFFFF;
+  margin: 10px;
+}
