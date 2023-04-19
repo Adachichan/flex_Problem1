@@ -22,3 +22,50 @@ header > div{
 header > div:nth-child(1){
   margin-right: auto;
 }
+
+main{
+  display: flex;
+  justify-content: center;
+}
+
+.main1{
+  width: 300px;
+  background-color: #CBFFD3;
+}
+
+.main2{
+  max-width: 700px;
+  flex-grow: 1;
+  background-color: #99CC00;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main2 > div{
+  flex-basis: 200px;
+  height: 130px;
+  background-color: #FFDB00;
+  margin: 10px;
+}
+
+footer{
+  width: 100%;
+  padding: 20px;
+  background-color: #33CCFF;
+}
+
+.footer1,
+.footer2{
+  display: flex;
+  justify-content: center;
+}
+
+.footer1 > div,
+.footer2 > div{
+  max-width: 600px;
+  flex-basis: 45vw;
+  height: 40px;
+  background-color: #DDFFFF;
+  margin: 10px;
+}
